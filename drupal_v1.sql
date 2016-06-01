@@ -5,9 +5,6 @@ SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
-CREATE DATABASE `drupalportfolio` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `drupalportfolio`;
-
 DROP TABLE IF EXISTS `actions`;
 CREATE TABLE `actions` (
   `aid` varchar(255) NOT NULL DEFAULT '0' COMMENT 'Primary Key: Unique actions ID.',
